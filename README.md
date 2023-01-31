@@ -1,4 +1,4 @@
-# Icelearning project
+# ICELEARNING
 ## Artificial intelligence techniques for ice core analyses
 
 ... will push the code ;)
