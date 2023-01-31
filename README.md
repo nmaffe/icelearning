@@ -1,7 +1,7 @@
 # ICELEARNING
 ## Artificial intelligence techniques for ice core analyses
 
-... will push the code ;)
+The code will be released soon ;)
 
 
 ## Acknowledgments
