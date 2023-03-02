@@ -1,8 +1,13 @@
 # ICELEARNING
 ## Artificial intelligence techniques for ice core analyses
-
+---
 The code will be released soon ;)
 
+### Create training dataset 🏋️ & train the model 🤖
+---
+```
+python model_train.py
+```
 
 ## Acknowledgments
 
