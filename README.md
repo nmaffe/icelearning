@@ -13,6 +13,11 @@ python model_train.py
 ```
 python model_test.py
 ```
+This code consists of the following steps:
+* The trained model .pth is loaded
+* The GRIP dataset is loaded (3M images)
+* Inference loop
+* Final dataset saved: ```dataset/test/inference_on_GRIP_samples.csv```
 
 ## Acknowledgments
 ---
