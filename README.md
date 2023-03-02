@@ -1,4 +1,4 @@
-# Artificial intelligence techniques for ice core analyses 
+# Detection of ice core particles via deep neural networks
 
 The ICELEARNING project ..
 
