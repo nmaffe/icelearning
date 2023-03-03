@@ -3,9 +3,7 @@
 The ICELEARNING project ..
 
 ### Data 
-
------
-
+...
 
 ### Create training dataset 🏋️ & train the model 🤖
 
