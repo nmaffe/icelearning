@@ -3,8 +3,11 @@
 The ICELEARNING project ..
 
 ### Data
-Download the ```datasets``` folder from Zenodo. This folder contains the train and GRIP data. The GRIP data are found in the ```datasets/test/``` folder.
-For each training class, you find the ```particle.csv``` files which contain the paths to the corresponding image folders. The ```.csv``` files also contain the metadata of the particles. There is also a ```train.csv``` file which includes all ```particle.csv``` files.
+Download the ```datasets``` folder from Zenodo. This folder contains all the train and GRIP data. The GRIP data are placed in the ```datasets/test/``` folder.
+
+For each training class, you find the ```particle.csv``` file and the corresponding image folder (see column _imgpaths_ in the csv file). 
+
+The ```.csv``` files also contain the metadata of the particles. There is also a ```train.csv``` file which includes all ```particle.csv``` files merged together.
 
 | Particle | Particle .csv file | N|
 | :---:  | :---: | :---: |
@@ -22,7 +25,7 @@ For each training class, you find the ```particle.csv``` files which contain the
 python model_train.py
 ```
 This code consists of the following sequence:
-* Creation of train/val/test datasets. The val dataset was used for hyperparameter tuning. Both the val and test datasets consist of 500 radom images/class.
+* Creation of train/val/test datasets. The val dataset was used for hyperparameter tuning. Both the val and test datasets consist of a 500 image/class random subset.
 * Model training and validation loops. The model performance is saved as ```model_training_performance.csv```
 * The final trained model is saved as ```saved_model/ICELEARNING_net.pth```
 * The model is applied to the test dataset and the Confusion Matrix will be shown and saved as ```confusion_matrix_on_val_dataset.pdf```
