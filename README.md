@@ -2,8 +2,19 @@
 
 The ICELEARNING project ..
 
-### Data 
-...
+### Data
+Download the ```datasets``` folder from Zenodo. This folder contains the train and GRIP data. The GRIP data are found in the ```datasets/test/``` folder.
+For each training class, you find the ```particle.csv``` files which contain the paths to the corresponding image folders. The ```.csv``` files also contain the metadata of the particles. There is also a ```train.csv``` file which includes all ```particle.csv``` files.
+
+| Particle | Particle .csv file | N|
+| :---:  | :---: | :---: |
+| Dust | ```datasets/dust.csv``` | 30758 |
+| Felsic tephra  | ```datasets/camp.csv``` | 7625 |
+| Basaltic tephra  | ```datasets/grim.csv``` | 6271 |
+| Pollen C. _avellana_ | ```datasets/corylus.csv``` | 47723 |
+| Pollen Q. _robur_ | ```datasets/qrob.csv``` | 35776 |
+| Pollen Q. _suber_ | ```datasets/qsub.csv``` | 32245 |
+| Contamination/Blurry | ```datasets/cont.csv``` | 11939 |
 
 ### Create training dataset 🏋️ & train the model 🤖
 
