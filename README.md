@@ -11,13 +11,13 @@ The ```.csv``` files also contain the metadata of the particles. There is also a
 
 | Particle | Particle .csv file | N| Example figure|
 | :---:  | :---: | :---: | :---: |
-| Dust | ```datasets/dust.csv``` | 30758 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Felsic tephra  | ```datasets/camp.csv``` | 7625 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Basaltic tephra  | ```datasets/grim.csv``` | 6271 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Pollen C. _avellana_ | ```datasets/corylus.csv``` | 47723 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Pollen Q. _robur_ | ```datasets/qrob.csv``` | 35776 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Pollen Q. _suber_ | ```datasets/qsub.csv``` | 32245 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
-| Contamination/Blurry | ```datasets/cont.csv``` | 11939 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Dust | ```datasets/dust.csv``` | 30758 | <img src="train_examples/focustest_2nov_1_fc80_20x_20.png" height="100" alt="Dust"> |
+| Felsic tephra  | ```datasets/camp.csv``` | 7625 | <img src="train_examples/camp_11nov_4_fc80_20x_33.png" height="100" alt="Felsic tephra"> |
+| Basaltic tephra  | ```datasets/grim.csv``` | 6271 | <img src="train_examples/grim_13nov_10_fc80_20x_395.png" height="100" alt="Basaltic tephra"> |
+| Pollen C. _avellana_ | ```datasets/corylus.csv``` | 47723 | <img src="train_examples/corylus_4nov_1_fc80_20x_3.png" height="100" alt="Pollen C. avellana"> |
+| Pollen Q. _robur_ | ```datasets/qrob.csv``` | 35776 | <img src="train_examples/qrob_17nov_1_fc80_20x_5.png" height="100" alt="Pollen Q. robur"> |
+| Pollen Q. _suber_ | ```datasets/qsub.csv``` | 32245 | <img src="train_examples/qsub_17nov_1_fc80_20x_16.png" height="100" alt="Pollen Q. suber"> |
+| Contamination/Blurry | ```datasets/cont.csv``` | 11939 | <img src="train_examples/GRIP_3046_0_20_1_1081.png" height="100" alt="Contamination"> |
 
 ### Create training dataset 🏋️ & train the model 🤖
 
