@@ -58,5 +58,5 @@ If you find this code helpful, please cite as below:
 
 The ICELEARNING project is supported by the European Union’s Horizon 2020 Marie Skłodowska-Curie Actions (grant no. 845115).
 
-## Acknowledgments
+## Contact
 For questions, contact niccolo.maffezzoli@unive.it
