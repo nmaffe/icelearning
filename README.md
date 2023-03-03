@@ -9,15 +9,15 @@ For each training class, you find the ```particle.csv``` file and the correspond
 
 The ```.csv``` files also contain the metadata of the particles. There is also a ```train.csv``` file which includes all ```particle.csv``` files merged together.
 
-| Particle | Particle .csv file | N|
-| :---:  | :---: | :---: |
-| Dust | ```datasets/dust.csv``` | 30758 |
-| Felsic tephra  | ```datasets/camp.csv``` | 7625 |
-| Basaltic tephra  | ```datasets/grim.csv``` | 6271 |
-| Pollen C. _avellana_ | ```datasets/corylus.csv``` | 47723 |
-| Pollen Q. _robur_ | ```datasets/qrob.csv``` | 35776 |
-| Pollen Q. _suber_ | ```datasets/qsub.csv``` | 32245 |
-| Contamination/Blurry | ```datasets/cont.csv``` | 11939 |
+| Particle | Particle .csv file | N| Example figure|
+| :---:  | :---: | :---: | :---: |
+| Dust | ```datasets/dust.csv``` | 30758 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Felsic tephra  | ```datasets/camp.csv``` | 7625 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Basaltic tephra  | ```datasets/grim.csv``` | 6271 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Pollen C. _avellana_ | ```datasets/corylus.csv``` | 47723 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Pollen Q. _robur_ | ```datasets/qrob.csv``` | 35776 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Pollen Q. _suber_ | ```datasets/qsub.csv``` | 32245 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
+| Contamination/Blurry | ```datasets/cont.csv``` | 11939 | <img src="img/grim_13nov_10_fc80_20x_395.png" height="20" alt="Alt text"> |
 
 ### Create training dataset 🏋️ & train the model 🤖
 
