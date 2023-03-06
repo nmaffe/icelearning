@@ -44,7 +44,7 @@ This code will implement the following sequence:
 * The trained model ```saved_model/ICELEARNING_net.pth``` is loaded.
 * The GRIP dataset is loaded (note: 3M+ images).
 * Inference loop.
-* Final dataset saved is saved as ```dataset/test/inference_on_GRIP_samples.csv```. This dataset will contain the model probabilities and predictions for each particle in the GRIP dataset.
+* Final dataset saved is saved as ```dataset/test/inference_on_GRIP_samples.csv```. This dataset will contain the model probabilities and predictions for each particle in the GRIP dataset, as well as the 64d-embeddings of the resnet FC layer.
 
 ## Citation
 If you find this code helpful, please cite as below:
