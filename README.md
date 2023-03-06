@@ -7,7 +7,7 @@
 Detection of ice core particles via deep neural networks. 
 
 ### Data
-Download the ```datasets``` folder from Zenodo. This folder contains all the train and GRIP data. The GRIP data are placed in the ```datasets/test/``` folder.
+Download the ```datasets``` folder from Zenodo, at https://doi.org/10.5281/zenodo.7591282. This folder contains all the train and GRIP data. The GRIP data are placed in the ```datasets/test/``` folder.
 
 For each training class, you find the ```particle.csv``` file and the corresponding image folder (see column _imgpaths_ in the csv file). 
 
