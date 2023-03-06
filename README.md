@@ -1,4 +1,6 @@
-# ICELEARNING
+# ICELEARNING 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7591282.svg)](https://doi.org/10.5281/zenodo.7591282)
+
 
 <p align="center">
   <img src="img/logo_icelearning.png" height="200" alt="ICELEARNING" align="middle">
@@ -7,7 +9,6 @@
 Detection of ice core particles via deep neural networks. 
 
 ### Data
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7591282.svg)](https://doi.org/10.5281/zenodo.7591282)
 
 Download the ```datasets``` folder from Zenodo. This folder contains all the train and GRIP data. The GRIP data are placed in the ```datasets/test/``` folder.
 
