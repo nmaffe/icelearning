@@ -1,7 +1,7 @@
 # Detection of ice core particles via deep neural networks
 
 <p align="center">
-  <img src="img/logo_icelearning.png" height="100" alt="ICELEARNING" align="middle">
+  <img src="img/logo_icelearning.png" height="200" alt="ICELEARNING" align="middle">
 </p>
 
 The ICELEARNING project ..
