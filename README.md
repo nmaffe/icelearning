@@ -25,7 +25,7 @@ The ```.csv``` files also contain the metadata of the particles. There is also a
 ```
 python model_train.py
 ```
-This code consists of the following sequence:
+This code will implement the following sequence:
 * Creation of train/val/test datasets. The val dataset was used for hyperparameter tuning. Both the val and test datasets consist of a 500 image/class random subset.
 * Model training and validation loops. The model performance is saved as ```model_training_performance.csv```
 * The trained model is saved as ```saved_model/ICELEARNING_net.pth```
@@ -40,7 +40,7 @@ Check and modify all parameters and filenames in the config file ```CFG.py```.
 ```
 python model_test.py
 ```
-This code consists of the following sequence:
+This code will implement the following sequence:
 * The trained model ```saved_model/ICELEARNING_net.pth``` is loaded.
 * The GRIP dataset is loaded (note: 3M+ images).
 * Inference loop.
