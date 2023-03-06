@@ -29,7 +29,7 @@ This code consists of the following sequence:
 * Creation of train/val/test datasets. The val dataset was used for hyperparameter tuning. Both the val and test datasets consist of a 500 image/class random subset.
 * Model training and validation loops. The model performance is saved as ```model_training_performance.csv```
 * The trained model is saved as ```saved_model/ICELEARNING_net.pth```
-* The model is applied to the test dataset and the Confusion Matrix will be shown and saved as ```confusion_matrix_on_val_dataset.pdf```. The ```model_test_results.csv``` file contains the predictions on the test dataset, as well as the 64d-embeddings of the last FC layer of the resnet branch.
+* The model is applied to the test dataset and the Confusion Matrix will be shown and saved as ```confusion_matrix_test_dataset.pdf```. The ```model_test_results.csv``` file contains the predictions on the test dataset, as well as the 64d-embeddings of the last FC layer of the resnet branch.
 * If ```CFG.run_umap_test``` is set to ```True```, UMAP is run and will cluster the 64d-embeddings down to 2d. The UMAP clustering will be saved as ```umap_test.pdf```. 
 
 Check and modify all parameters and filenames in the config file ```CFG.py```.
