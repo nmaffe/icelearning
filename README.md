@@ -1,10 +1,10 @@
-# Detection of ice core particles via deep neural networks
+# ICELEARNING
 
 <p align="center">
   <img src="img/logo_icelearning.png" height="200" alt="ICELEARNING" align="middle">
 </p>
 
-The ICELEARNING project ..
+Detection of ice core particles via deep neural networks. 
 
 ### Data
 Download the ```datasets``` folder from Zenodo. This folder contains all the train and GRIP data. The GRIP data are placed in the ```datasets/test/``` folder.
